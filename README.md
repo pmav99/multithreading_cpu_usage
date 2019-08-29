@@ -17,3 +17,7 @@ multi-threaded code under Python 2.
 5. Finally execute `python3 multi_threaded.py`
 6. Observer the results on `sar`. The User CPU usage should be ~ 12.5% but the system
    CPU usage should remain around 1%.
+
+For a little bit more context why this is happening check the answers in this
+[thread](https://stackoverflow.com/questions/5426533/python-threading-lock-slows-my-app-down-considerably/5441992#5441992).
+And if you truly want more info, then check [this presentation](https://www.dabeaz.com/GIL/)
